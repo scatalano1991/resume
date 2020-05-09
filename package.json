@@ -1,6 +1,7 @@
 {
   "name": "shelby-resume",
   "version": "0.0.0",
+  "assets": ["src/assets"],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
