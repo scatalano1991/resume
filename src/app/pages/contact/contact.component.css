@@ -1,0 +1,47 @@
+.contact-layout {
+    font-family: Tahoma;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.contact-image > img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+.contact-container {
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.contact-title {
+    font-size: 48px;
+}
+
+.contact-bar {
+    border-bottom: solid 10px teal;
+    margin-top: 75px;
+    width: 100px;
+}
+
+.contact-quote {
+    font-size: 24px;
+    margin: auto 0;
+    line-height: 50px;
+}
+
+.contact-signature {
+    margin: auto 0;
+}
+
+.contact-email {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contact-email a{
+    text-decoration: none;
+}

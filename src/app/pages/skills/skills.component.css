@@ -1,0 +1,25 @@
+.skills-layout {
+    font-family: Tahoma;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgba(0,0,0,.2);
+    padding: 30px;
+    height: 90%;
+}
+
+.skills-card {
+    text-align: center;
+    background: rgba(235,235,235,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    font-size: 18px;
+}
+
+.skills-icon img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
